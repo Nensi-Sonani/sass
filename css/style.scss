@@ -1,0 +1,47 @@
+// $abc: #000;
+// h1{
+//     color:$abc;
+// }
+
+
+// @mixin mixin-new{
+//     font-size: 25px;
+//     font-weight: bold;
+// }
+// .main-div{
+//     .child-class{
+//           background-color: palevioletred;
+//           color:$abc;
+//           @include mixin-new();
+//     }
+//     .child-class-2{
+//         background-color: orange;
+//         color:$abc;
+//         @include mixin-new();
+//     }
+// }
+
+
+// .sec{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+// .div-1{
+//     background-color: blueviolet;
+//     padding: 15px;
+//     margin: 15px;
+//     color: aliceblue;
+//     font-size: 25px;
+//     width: 500px;
+// }
+
+// .div-2{
+//     background-color: rgb(206, 154, 255);
+//     @extend  .div-1;
+// }
+
+// .div-3{
+//     background-color: rgb(79, 48, 108);
+//     @extend  .div-1; 
+// }
